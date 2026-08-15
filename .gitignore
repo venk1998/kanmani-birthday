@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+
+# Exclude uncompressed raw video files over 100MB
+images/Personal.MP4
+images/personal_compressed.mp4
+images/personal_web.mp4
+images/*.mov
+images/Happy Birthday My Lovee♥️💕.mov
