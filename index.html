@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Kanmani 💖 | A Surprise For My Love</title>
+  <meta name="description" content="A romantic, interactive birthday celebration website crafted for Kanmani." />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💖</text></svg>" />
+  <link rel="stylesheet" href="./src/styles/main.css" />
+</head>
+<body>
+  <!-- Animated Background Canvas -->
+  <canvas id="bgCanvas"></canvas>
+
+  <!-- Top Navigation & Controls -->
+  <header class="top-nav">
+    <button class="nav-btn" id="musicToggleBtn">
+      <span>🎵 BGM: On</span>
+      <div class="music-equalizer">
+        <div class="eq-bar"></div>
+        <div class="eq-bar"></div>
+        <div class="eq-bar"></div>
+      </div>
+    </button>
+  </header>
+
+  <!-- Main View Container -->
+  <main id="app"></main>
+
+  <!-- Modal Overlays Container -->
+  <div id="videoModalContainer"></div>
+  <div id="customizerContainer"></div>
+
+  <!-- Background Music Audio Engine -->
+  <audio id="bgmAudio" loop preload="auto"></audio>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
